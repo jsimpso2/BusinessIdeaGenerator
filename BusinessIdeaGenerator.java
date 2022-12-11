@@ -7,11 +7,11 @@ public class BusinessIdeaGenerator {
 
     //create a static scanner object to get user inputs
     public static Scanner input=new Scanner(System.in);
-    public static void main(String args[])
+    public static void main(String[] args)
     {
 
         //call IdeasDataBase.getIdeas() to get all business ideas and store them in array
-        BusinessIdea ideas[]=IdeasDataBase.getIdeas();
+        BusinessIdea[] ideas=IdeasDataBase.getIdeas();
 
         //print welcome message on screen
         printWelcomeMessage();
