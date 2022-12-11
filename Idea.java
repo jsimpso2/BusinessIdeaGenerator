@@ -34,7 +34,7 @@ public abstract class Idea {
     }
 
 
-    //this function when call return a string representation of Idea
+    //this method when call return a string representation of Idea
     public String toString() {
         return
                 "Name= " + title + '\n' +
