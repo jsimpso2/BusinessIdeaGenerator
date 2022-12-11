@@ -26,7 +26,7 @@ public class BusinessIdeaGenerator {
             //get username
             System.out.print("Please Enter your Name: ");
             String name=input.next();
-            System.out.println("\nWhat is your level of education?\n 1: Ill-educated\n 2:Matriculation\n 3:Higher Education");
+            System.out.println("\nWhat is your level of education?\n 1: Less than a highschool diploma\n 2:Highschool degree or equivalent\n 3:Higher Education");
             System.out.print("Enter your Choice (number 1-3): ");
             int edu=input.nextInt();
             System.out.println("\nWhat is your budget to start the business?");
@@ -124,7 +124,7 @@ public class BusinessIdeaGenerator {
             }
 
 
-            System.out.println("\nBased on your answers Following Business Suits you:\n");
+            System.out.println("\nBased on your answers the following business suits you:\n");
             System.out.println("\t"+businessIdea);
             System.out.println("\nPress 1 to generate another Idea or press 0 to exit");
             int choice=input.nextInt();
