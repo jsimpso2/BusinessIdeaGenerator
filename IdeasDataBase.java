@@ -6,7 +6,7 @@ public  class IdeasDataBase {
     public static BusinessIdea[] getIdeas()
     {
 
-        //create an array of 16 size
+        //create an array of 15 indexes
         BusinessIdea businessIdea[]=new BusinessIdea[15];
         //fill the array with some business ideas
 
